@@ -39,7 +39,7 @@
         ],
         "source": "steps",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "BREWERY_NAME": {
         "description": "Brewery Name",
@@ -72,7 +72,7 @@
         "options": null,
         "source": "steps",
         "type": "kettle",
-        "value": ""
+        "value": "TzZmekX6Z3qNdUpCJczqrX"
     },
     "CONFIG_STATUS": {
         "description": "Status of the config file. Internal use for maintenance",
@@ -179,7 +179,7 @@
         "options": null,
         "source": "steps",
         "type": "kettle",
-        "value": ""
+        "value": "6hJntYwP48iYjG8kdbD667"
     },
     "MQTTUpdate": {
         "description": "Forced MQTT Update frequency in s for Kettle and Fermenter (no changes in payload required). Restart required after change",
@@ -308,7 +308,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": ""
+        "value": "MEQpvVG6nXahRpXXo0KSCAEPOkL2"
     },
     "brewfather_list_length": {
         "description": "Brewfather Recipe List length",
@@ -345,7 +345,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": ""
+        "value": "rwshields@gmail.com"
     },
     "current_dashboard_number": {
         "description": "Number of current Dashboard",
