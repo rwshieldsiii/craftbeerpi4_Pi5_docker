@@ -5,7 +5,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "Rob Shiel;ds"
+        "value": "Rob Shields"
     },
     "AddMashInStep": {
         "description": "Add MashIn Step automatically if not defined in recipe",
@@ -47,7 +47,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "PlainBrew"
+        "value": "Plainbrew"
     },
     "BoilAutoTimer": {
         "description": "Start Boil timer automatically if Temp does not change for 5 Minutes and is above 95C/203F",
@@ -64,7 +64,7 @@
         ],
         "source": "steps",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "BoilKettle": {
         "description": "Define Kettle that is used for Boil, Whirlpool and Cooldown. If not selected, MASH_TUN will be used",
@@ -166,7 +166,7 @@
         "value": " "
     },
     "INFLUXDBUSER": {
-        "description": "User Name for your influxdb database (only if required)(If INFLUXDBCLOUD set to Yes use organisation of your influxdb cloud database)",
+        "description": "User name for your influxdb database (only if required)(If INFLUXDBCLOUD set to Yes use organisation of your influxdb cloud database)",
         "name": "INFLUXDBUSER",
         "options": null,
         "source": "craftbeerpi",
@@ -233,7 +233,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "PLAY_BUZZER": {
         "description": "Play buzzer sound in Web interface on Notifications",
@@ -250,7 +250,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "PRESSURE_UNIT": {
         "description": "Set unit for pressure",
@@ -316,7 +316,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": ""
+        "value": "MEQpvVG6nXahRpXXo0KSCAEPOkL2"
     },
     "brewfather_list_length": {
         "description": "Brewfather Recipe List length",
@@ -353,7 +353,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": ""
+        "value": "rwshields@gmail.com"
     },
     "current_dashboard_number": {
         "description": "Number of current Dashboard",
@@ -451,7 +451,7 @@
         "options": null,
         "source": "steps",
         "type": "actor",
-        "value": ""
+        "value": "EayfjNBwkUofnBjQA5bNqr"
     },
     "steps_boil_temp": {
         "description": "Default Boil Temperature for Recipe Creation",
@@ -475,7 +475,7 @@
         "options": null,
         "source": "steps",
         "type": "actor",
-        "value": ""
+        "value": "2QHtUyRv7ggvxcocf5Vq7C"
     },
     "steps_cooldown_sensor": {
         "description": "Alternative Sensor to monitor temperature durring cooldown (if not selected, Kettle Sensor will be used)",
@@ -483,7 +483,7 @@
         "options": null,
         "source": "steps",
         "type": "sensor",
-        "value": ""
+        "value": "d8HgwdRdSNSGrXMVTmVevG"
     },
     "steps_cooldown_temp": {
         "description": "Cooldown temp will send notification when this temeprature is reached",
@@ -491,7 +491,7 @@
         "options": null,
         "source": "steps",
         "type": "number",
-        "value": 20
+        "value": "68"
     },
     "steps_mash": {
         "description": "Mash step type",
