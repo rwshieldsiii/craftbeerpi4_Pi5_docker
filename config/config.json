@@ -166,7 +166,7 @@
         "value": " "
     },
     "INFLUXDBUSER": {
-        "description": "User name for your influxdb database (only if required)(If INFLUXDBCLOUD set to Yes use organisation of your influxdb cloud database)",
+        "description": "User Name for your influxdb database (only if required)(If INFLUXDBCLOUD set to Yes use organisation of your influxdb cloud database)",
         "name": "INFLUXDBUSER",
         "options": null,
         "source": "craftbeerpi",
@@ -180,6 +180,14 @@
         "source": "steps",
         "type": "kettle",
         "value": "6hJntYwP48iYjG8kdbD667"
+    },
+    "MIN_MEMORY": {
+        "description": "Minimum required memory in MB for CraftBeerPi to run properly",
+        "name": "MIN_MEMORY",
+        "options": null,
+        "source": "craftbeerpi",
+        "type": "number",
+        "value": 200
     },
     "MQTTUpdate": {
         "description": "Forced MQTT Update frequency in s for Kettle and Fermenter (no changes in payload required). Restart required after change",
@@ -308,7 +316,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "MEQpvVG6nXahRpXXo0KSCAEPOkL2"
+        "value": ""
     },
     "brewfather_list_length": {
         "description": "Brewfather Recipe List length",
@@ -337,7 +345,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": 50
+        "value": 5
     },
     "brewfather_user_id": {
         "description": "Brewfather User ID",
@@ -345,7 +353,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "rwshields@gmail.com"
+        "value": ""
     },
     "current_dashboard_number": {
         "description": "Number of current Dashboard",
@@ -436,6 +444,14 @@
         "source": "steps",
         "type": "step",
         "value": "BoilStep"
+    },
+    "steps_boil_actor": {
+        "description": "Actor that can be toggled with lid alert to activate exhaust or steam condensor (default: None)",
+        "name": "steps_boil_actor",
+        "options": null,
+        "source": "steps",
+        "type": "actor",
+        "value": ""
     },
     "steps_boil_temp": {
         "description": "Default Boil Temperature for Recipe Creation",

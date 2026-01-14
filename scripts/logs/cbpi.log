@@ -1,0 +1,30 @@
+2026-01-14 13:39:32,534 - WARNING - cbpi.craftbeerpi - 
+  _____            __ _   ____                 _____ _   _  _  ______ __  
+ / ____|          / _| | |  _ \               |  __ (_) | || ||____  /_ | 
+| |     _ __ __ _| |_| |_| |_) | ___  ___ _ __| |__) |  | || |_   / / | | 
+| |    | '__/ _` |  _| __|  _ < / _ \/ _ \ '__|  ___/ | |__   _| / /  | | 
+| |____| | | (_| | | | |_| |_) |  __/  __/ |  | |   | |    | |_ / / _ | | 
+ \_____|_|  \__,_|_|  \__|____/ \___|\___|_|  |_|   |_|    |_(_)_/ (_)|_| 
+                                                                          
+                                                                          
+
+2026-01-14 13:39:32,535 - WARNING - cbpi.craftbeerpi - www.CraftBeerPi.com
+2026-01-14 13:39:32,535 - WARNING - cbpi.craftbeerpi - (c) 2021 - 2024 Manuel Fritsch / Alexander Vollkopf
+2026-01-14 13:39:32,615 - WARNING - cbpi.extension.gpioactor - Failed to load RPi.GPIO. Using Mock instead
+2026-01-14 13:39:32,626 - ERROR - cbpi.extension.systemdata - INIT Systemdata Extension
+2026-01-14 13:39:32,755 - WARNING - cbpi.extension.ConfigUpdate - INIT Boil Actor Setting
+2026-01-14 13:39:32,832 - WARNING - cbpi.extension.ConfigUpdate - Setting Config Status
+2026-01-14 13:54:55,913 - WARNING - cbpi.craftbeerpi - 
+  _____            __ _   ____                 _____ _   _  _  ______ __  
+ / ____|          / _| | |  _ \               |  __ (_) | || ||____  /_ | 
+| |     _ __ __ _| |_| |_| |_) | ___  ___ _ __| |__) |  | || |_   / / | | 
+| |    | '__/ _` |  _| __|  _ < / _ \/ _ \ '__|  ___/ | |__   _| / /  | | 
+| |____| | | (_| | | | |_| |_) |  __/  __/ |  | |   | |    | |_ / / _ | | 
+ \_____|_|  \__,_|_|  \__|____/ \___|\___|_|  |_|   |_|    |_(_)_/ (_)|_| 
+                                                                          
+                                                                          
+
+2026-01-14 13:54:55,913 - WARNING - cbpi.craftbeerpi - www.CraftBeerPi.com
+2026-01-14 13:54:55,913 - WARNING - cbpi.craftbeerpi - (c) 2021 - 2024 Manuel Fritsch / Alexander Vollkopf
+2026-01-14 13:54:56,009 - ERROR - cbpi.extension.systemdata - INIT Systemdata Extension
+2026-01-14 13:54:56,138 - WARNING - cbpi.extension.ConfigUpdate - INIT Boil Actor Setting

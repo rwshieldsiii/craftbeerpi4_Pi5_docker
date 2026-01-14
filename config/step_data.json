@@ -5,7 +5,7 @@
     },
     "steps": [
         {
-            "id": "KQsmpb6RQVG8H6nfi2MQxW",
+            "id": "WzQcysGU9NB879y7Hsp5jK",
             "name": "MashIn",
             "props": {
                 "AutoMode": "No",
@@ -21,7 +21,7 @@
             "type": "MashInStep"
         },
         {
-            "id": "3CWm8VtPrzkprqDNQ72keU",
+            "id": "AxZauf2fJZwXZAUDmfyAwh",
             "name": "Temperature",
             "props": {
                 "AutoMode": "No",
@@ -37,7 +37,7 @@
             "type": "MashStep"
         },
         {
-            "id": "JC5yNrT39sJ9ZNPpMwiTkN",
+            "id": "fVBfRZzykRmKu7hNEkGvDZ",
             "name": "Boil Step",
             "props": {
                 "AutoMode": "No",
@@ -67,7 +67,7 @@
             "type": "BoilStep"
         },
         {
-            "id": "JVsLP9e4JSUu3oQ5nhXakz",
+            "id": "aVcDyiUDGvieRrQyET3MGW",
             "name": "Cooldown for Whirlpool Hop",
             "props": {
                 "Actor": null,
@@ -82,7 +82,7 @@
             "type": "CooldownStep"
         },
         {
-            "id": "Ytoqe6WzsuyDHouiVcGs7q",
+            "id": "2fBGZo2MMwgjqzJYGNJc4U",
             "name": "Whirlpool Hop",
             "props": {
                 "AutoNext": "No",
@@ -95,7 +95,7 @@
             "type": "NotificationStep"
         },
         {
-            "id": "Rgri9eqBnQWhHmmFwtoTps",
+            "id": "VZZUiKGfqFGY5WgkNQJHtx",
             "name": "Whirlpool",
             "props": {
                 "Kettle": "TzZmekX6Z3qNdUpCJczqrX",
@@ -107,7 +107,7 @@
             "type": "WaitStep"
         },
         {
-            "id": "RR2a8Q46SUjL7EX5dqvGwx",
+            "id": "86G8aJoHLU6qhVzRn2KQaS",
             "name": "Cooldown",
             "props": {
                 "Actor": null,

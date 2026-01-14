@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "id": "iDW74wbXF9FvrTxDeUuBjo",
+            "name": "BOIL TEMP",
+            "props": {
+                "Sensor": "28-041671ad48ff"
+            },
+            "state": false,
+            "type": "OneWire"
+        }
+    ]
+}
