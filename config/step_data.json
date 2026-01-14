@@ -1,18 +1,18 @@
 {
     "basic": {
-        "author": "Rob Shiel;ds",
-        "name": "DDH Melcher Street Clone"
+        "author": "Rob Shields",
+        "name": "Honey IPA"
     },
     "steps": [
         {
-            "id": "KQsmpb6RQVG8H6nfi2MQxW",
+            "id": "WtGqbbmdYT6ULgv9aUttHS",
             "name": "MashIn",
             "props": {
                 "AutoMode": "No",
                 "Kettle": "6hJntYwP48iYjG8kdbD667",
                 "Notification": "Target temperature reached. Please add malt.",
                 "Sensor": "HmDaSXYcKLympjHfuVuPVm",
-                "Temp": "149",
+                "Temp": "152",
                 "Timer": 0
             },
             "state_text": "",
@@ -21,14 +21,14 @@
             "type": "MashInStep"
         },
         {
-            "id": "3CWm8VtPrzkprqDNQ72keU",
+            "id": "jNwqEk64iVFULyZbDAwhT6",
             "name": "Temperature",
             "props": {
                 "AutoMode": "No",
                 "Kettle": "6hJntYwP48iYjG8kdbD667",
                 "Notification": "",
                 "Sensor": "HmDaSXYcKLympjHfuVuPVm",
-                "Temp": "149",
+                "Temp": "152",
                 "Timer": "60"
             },
             "state_text": "",
@@ -37,20 +37,20 @@
             "type": "MashStep"
         },
         {
-            "id": "JC5yNrT39sJ9ZNPpMwiTkN",
+            "id": "Q869i7Aqiuq6GTSxEnN2Nh",
             "name": "Boil Step",
             "props": {
                 "AutoMode": "No",
                 "First_Wort": "No",
                 "First_Wort_text": "",
-                "Hop_1": 60.0,
-                "Hop_1_text": "Columbus (Tomahawk)",
-                "Hop_2": 20.0,
-                "Hop_2_text": "Magnum",
-                "Hop_3": null,
-                "Hop_3_text": null,
-                "Hop_4": null,
-                "Hop_4_text": null,
+                "Hop_1": 30.0,
+                "Hop_1_text": "Columbus/Tomahawk/Zeus (CTZ)",
+                "Hop_2": 5.0,
+                "Hop_2_text": "Amarillo",
+                "Hop_3": 5.0,
+                "Hop_3_text": "Centennial",
+                "Hop_4": 5.0,
+                "Hop_4_text": "Simcoe",
                 "Hop_5": null,
                 "Hop_5_text": null,
                 "Hop_6": null,
@@ -59,7 +59,7 @@
                 "LidAlert": "Yes",
                 "Sensor": "d8HgwdRdSNSGrXMVTmVevG",
                 "Temp": "207",
-                "Timer": "60"
+                "Timer": "30"
             },
             "state_text": "",
             "state_text2": null,
@@ -67,53 +67,13 @@
             "type": "BoilStep"
         },
         {
-            "id": "JVsLP9e4JSUu3oQ5nhXakz",
-            "name": "Cooldown for Whirlpool Hop",
-            "props": {
-                "Actor": null,
-                "Kettle": "TzZmekX6Z3qNdUpCJczqrX",
-                "Sensor": "d8HgwdRdSNSGrXMVTmVevG",
-                "Temp": 176.0,
-                "Timer": ""
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "CooldownStep"
-        },
-        {
-            "id": "Ytoqe6WzsuyDHouiVcGs7q",
-            "name": "Whirlpool Hop",
-            "props": {
-                "AutoNext": "No",
-                "Kettle": "6hJntYwP48iYjG8kdbD667",
-                "Notification": "Target Whirlpool temperature reached. Please add Whirlpool hops."
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "NotificationStep"
-        },
-        {
-            "id": "Rgri9eqBnQWhHmmFwtoTps",
-            "name": "Whirlpool",
-            "props": {
-                "Kettle": "TzZmekX6Z3qNdUpCJczqrX",
-                "Timer": "15"
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "WaitStep"
-        },
-        {
-            "id": "RR2a8Q46SUjL7EX5dqvGwx",
+            "id": "CBQVoBNVHNRZWL4HdGrrUJ",
             "name": "Cooldown",
             "props": {
-                "Actor": null,
+                "Actor": "2QHtUyRv7ggvxcocf5Vq7C",
                 "Kettle": "TzZmekX6Z3qNdUpCJczqrX",
                 "Sensor": "d8HgwdRdSNSGrXMVTmVevG",
-                "Temp": 20,
+                "Temp": 68,
                 "Timer": ""
             },
             "state_text": "",

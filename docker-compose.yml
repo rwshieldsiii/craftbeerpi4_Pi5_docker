@@ -1,11 +1,13 @@
 version: "3.7"
 services:
   craftbeerpi:
-    image: ghcr.io/pibrewing/craftbeerpi4:v4.6.1 # you can modify this to be 'latest' instead of v4.6.1 if you like. Personally I like pinning the image until I am ready to upgrade intentionally. I don't want a surprise problem on brew day.
+    image: ghcr.io/pibrewing/craftbeerpi4:v4.7.1 # you can modify this to be 'latest' instead of v4.6.1 if you like. Personally I like pinning the image until I am ready to upgrade intentionally. I don't want a surprise problem on brew day.
     privileged: true
     user: root # due to kernel changes for the pi5 I couldn't find a workaround aside from using the root user. There likely is a better way.
-    command: bash -c "pip3 uninstall -y RPi.GPIO && pip3 install rpi-lgpio && cbpi start" # removing legacy GPIO support and adding in libary required for the pi5
+    command: bash -c "cd scripts && ./install.sh && cd .. && apt update -y && pip3 uninstall -y RPi.GPIO && pip3 install rpi-lgpio && cbpi start"
+# removing legacy GPIO support and adding in libary required for the pi5
     volumes:
       - "./config:/cbpi/config"
+      - "./scripts:/cbpi/scripts"
     ports:
       - 8000:8000

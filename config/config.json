@@ -5,7 +5,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "Rob Shiel;ds"
+        "value": "Rob Shields"
     },
     "AddMashInStep": {
         "description": "Add MashIn Step automatically if not defined in recipe",
@@ -47,7 +47,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "PlainBrew"
+        "value": "Plainbrew"
     },
     "BoilAutoTimer": {
         "description": "Start Boil timer automatically if Temp does not change for 5 Minutes and is above 95C/203F",
@@ -64,7 +64,7 @@
         ],
         "source": "steps",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "BoilKettle": {
         "description": "Define Kettle that is used for Boil, Whirlpool and Cooldown. If not selected, MASH_TUN will be used",
@@ -80,7 +80,7 @@
         "options": null,
         "source": "hidden",
         "type": "string",
-        "value": "4.6.1"
+        "value": "4.7.1"
     },
     "CSVLOGFILES": {
         "description": "Write sensor data to csv logfiles (enabling requires restart)",
@@ -181,6 +181,14 @@
         "type": "kettle",
         "value": "6hJntYwP48iYjG8kdbD667"
     },
+    "MIN_MEMORY": {
+        "description": "Minimum required memory in MB for CraftBeerPi to run properly",
+        "name": "MIN_MEMORY",
+        "options": null,
+        "source": "craftbeerpi",
+        "type": "number",
+        "value": 200
+    },
     "MQTTUpdate": {
         "description": "Forced MQTT Update frequency in s for Kettle and Fermenter (no changes in payload required). Restart required after change",
         "name": "MQTTUpdate",
@@ -225,7 +233,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "PLAY_BUZZER": {
         "description": "Play buzzer sound in Web interface on Notifications",
@@ -242,7 +250,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "PRESSURE_UNIT": {
         "description": "Set unit for pressure",
@@ -437,6 +445,14 @@
         "type": "step",
         "value": "BoilStep"
     },
+    "steps_boil_actor": {
+        "description": "Actor that can be toggled with lid alert to activate exhaust or steam condensor (default: None)",
+        "name": "steps_boil_actor",
+        "options": null,
+        "source": "steps",
+        "type": "actor",
+        "value": "EayfjNBwkUofnBjQA5bNqr"
+    },
     "steps_boil_temp": {
         "description": "Default Boil Temperature for Recipe Creation",
         "name": "steps_boil_temp",
@@ -459,7 +475,7 @@
         "options": null,
         "source": "steps",
         "type": "actor",
-        "value": ""
+        "value": "2QHtUyRv7ggvxcocf5Vq7C"
     },
     "steps_cooldown_sensor": {
         "description": "Alternative Sensor to monitor temperature durring cooldown (if not selected, Kettle Sensor will be used)",
@@ -467,7 +483,7 @@
         "options": null,
         "source": "steps",
         "type": "sensor",
-        "value": ""
+        "value": "d8HgwdRdSNSGrXMVTmVevG"
     },
     "steps_cooldown_temp": {
         "description": "Cooldown temp will send notification when this temeprature is reached",
@@ -475,7 +491,7 @@
         "options": null,
         "source": "steps",
         "type": "number",
-        "value": 20
+        "value": "68"
     },
     "steps_mash": {
         "description": "Mash step type",

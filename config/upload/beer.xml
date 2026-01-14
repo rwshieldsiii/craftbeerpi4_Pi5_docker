@@ -1,98 +1,122 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <RECIPES>
     <RECIPE>
-        <NAME>DDH&#32;Melcher&#32;Street&#32;Clone</NAME>
+        <NAME>Honey&#32;IPA</NAME>
         <VERSION>1</VERSION>
         <TYPE>All&#32;Grain</TYPE>
-        <NOTES>I&#39;ve&#32;always&#32;been&#32;a&#32;big&#32;Trillium&#32;fan&#46;&#32;DDH&#32;Melcher&#32;may&#32;have&#32;been&#32;the&#32;first&#32;hazy&#32;IPA&#32;I&#32;really&#32;fell&#32;in&#32;love&#32;with&#46;&#32;While&#32;it&#39;s&#32;hard&#32;to&#32;say&#32;if&#32;this&#32;is&#32;a&#32;dead&#45;on&#32;clone&#44;&#32;it&#39;s&#32;very&#32;very&#32;close&#32;and&#32;really&#32;has&#32;some&#32;distinct&#32;Trillium&#47;Melcher&#32;qualities&#32;thanks&#32;to&#32;the&#32;very&#32;heavy&#32;Mosiac&#32;dry&#32;hopping&#46;</NOTES>
+        <NOTES>You&#32;can&#32;go&#32;lighter&#32;on&#32;the&#32;bittering&#32;hops&#46;&#32;&#46;&#32;&#46;but&#32;still&#32;great&#32;as&#32;is&#46;</NOTES>
         <STYLE>
-            <NAME>New&#32;England&#32;IPA</NAME>
+            <NAME>American&#32;IPA</NAME>
             <CATEGORY>IPA</CATEGORY>
             <VERSION>1</VERSION>
             <CATEGORY_NUMBER>21</CATEGORY_NUMBER>
-            <STYLE_LETTER>B</STYLE_LETTER>
-            <STYLE_GUIDE>BJCP&#32;Provisional</STYLE_GUIDE>
+            <STYLE_LETTER>A</STYLE_LETTER>
+            <STYLE_GUIDE>BJCP&#32;&#50;&#48;&#50;&#49;</STYLE_GUIDE>
             <TYPE>IPA</TYPE>
-            <OG_MIN>1.06</OG_MIN>
-            <OG_MAX>1.085</OG_MAX>
-            <FG_MIN>1.01</FG_MIN>
-            <FG_MAX>1.015</FG_MAX>
-            <IBU_MIN>25</IBU_MIN>
-            <IBU_MAX>60</IBU_MAX>
-            <COLOR_MIN>3</COLOR_MIN>
-            <COLOR_MAX>7</COLOR_MAX>
+            <OG_MIN>1.056</OG_MIN>
+            <OG_MAX>1.07</OG_MAX>
+            <FG_MIN>1.008</FG_MIN>
+            <FG_MAX>1.014</FG_MAX>
+            <IBU_MIN>40</IBU_MIN>
+            <IBU_MAX>70</IBU_MAX>
+            <COLOR_MIN>6</COLOR_MIN>
+            <COLOR_MAX>14</COLOR_MAX>
         </STYLE>
-        <BREWER>Shawn&#32;&#45;&#32;Hazy&#32;and&#32;Hoppy</BREWER>
-        <BATCH_SIZE>20.819765</BATCH_SIZE>
-        <BOIL_SIZE>26.52</BOIL_SIZE>
-        <BOIL_TIME>60</BOIL_TIME>
-        <EFFICIENCY>70</EFFICIENCY>
-        <OG>1.074</OG>
-        <FG>1.017</FG>
-        <ABV>7.48 %</ABV>
-        <EST_ABV>7.48 %</EST_ABV>
-        <IBU>60.8</IBU>
-        <EST_OG>1.074 SG</EST_OG>
-        <EST_FG>1.017 SG</EST_FG>
-        <EST_COLOR>6.5 SRM</EST_COLOR>
+        <BREWER>Yeast&#32;And&#32;The&#32;Beast</BREWER>
+        <BATCH_SIZE>30.283294</BATCH_SIZE>
+        <BOIL_SIZE>34.66</BOIL_SIZE>
+        <BOIL_TIME>30</BOIL_TIME>
+        <EFFICIENCY>75</EFFICIENCY>
+        <OG>1.064</OG>
+        <FG>1.01</FG>
+        <ABV>7.09 %</ABV>
+        <EST_ABV>7.09 %</EST_ABV>
+        <IBU>63.1</IBU>
+        <EST_OG>1.064 SG</EST_OG>
+        <EST_FG>1.01 SG</EST_FG>
+        <EST_COLOR>9.6 SRM</EST_COLOR>
         <CARBONATION>2.4</CARBONATION>
         <HOPS>
             <HOP>
-                <BF_ID>default-95c33097</BF_ID>
-                <NAME>Columbus&#32;&#40;Tomahawk&#41;</NAME>
+                <BF_ID>default-219e4a4e</BF_ID>
+                <NAME>Columbus&#47;Tomahawk&#47;Zeus&#32;&#40;CTZ&#41;</NAME>
                 <VERSION>1</VERSION>
-                <ALPHA>14</ALPHA>
-                <AMOUNT>0.028349523</AMOUNT>
+                <ALPHA>16.2</ALPHA>
+                <AMOUNT>0.0391</AMOUNT>
                 <USE>Boil</USE>
-                <TIME>60</TIME>
+                <TIME>30</TIME>
                 <FORM>Pellet</FORM>
                 <TEMPERATURE/>
                 <HOP_TEMP/>
             </HOP>
             <HOP>
-                <BF_ID>new-0LttlqyOKXvuF6rFIgVJuxtCtmsbLm</BF_ID>
-                <NAME>Magnum</NAME>
+                <BF_ID>default-620d1be4</BF_ID>
+                <NAME>Amarillo</NAME>
                 <VERSION>1</VERSION>
-                <ALPHA>14.6</ALPHA>
-                <AMOUNT>0.014174761999999999</AMOUNT>
+                <ALPHA>9.5</ALPHA>
+                <AMOUNT>0.0206</AMOUNT>
                 <USE>Boil</USE>
-                <TIME>20</TIME>
+                <TIME>5</TIME>
                 <FORM>Pellet</FORM>
                 <TEMPERATURE/>
                 <HOP_TEMP/>
             </HOP>
             <HOP>
-                <BF_ID>default-0c4aeb7c</BF_ID>
-                <NAME>Citra</NAME>
+                <BF_ID>default-bc4774ae</BF_ID>
+                <NAME>Centennial</NAME>
                 <VERSION>1</VERSION>
-                <ALPHA>12.6</ALPHA>
-                <AMOUNT>0.056699046</AMOUNT>
+                <ALPHA>10.7</ALPHA>
+                <AMOUNT>0.0206</AMOUNT>
+                <USE>Boil</USE>
+                <TIME>5</TIME>
+                <FORM>Pellet</FORM>
+                <TEMPERATURE/>
+                <HOP_TEMP/>
+            </HOP>
+            <HOP>
+                <BF_ID>default-36ce1e32</BF_ID>
+                <NAME>Simcoe</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>11.9</ALPHA>
+                <AMOUNT>0.0206</AMOUNT>
+                <USE>Boil</USE>
+                <TIME>5</TIME>
+                <FORM>Pellet</FORM>
+                <TEMPERATURE/>
+                <HOP_TEMP/>
+            </HOP>
+            <HOP>
+                <BF_ID>default-620d1be4</BF_ID>
+                <NAME>Amarillo</NAME>
+                <VERSION>1</VERSION>
+                <ALPHA>9.5</ALPHA>
+                <AMOUNT>0.0206</AMOUNT>
                 <USE>Aroma</USE>
                 <TIME>30</TIME>
                 <FORM>Pellet</FORM>
-                <TEMPERATURE>79.444444</TEMPERATURE>
-                <HOP_TEMP>79.444444</HOP_TEMP>
+                <TEMPERATURE/>
+                <HOP_TEMP/>
             </HOP>
             <HOP>
-                <BF_ID>default-0c4aeb7c</BF_ID>
-                <NAME>Mosaic</NAME>
+                <BF_ID>default-bc4774ae</BF_ID>
+                <NAME>Centennial</NAME>
                 <VERSION>1</VERSION>
-                <ALPHA>12.25</ALPHA>
-                <AMOUNT>0.226796185</AMOUNT>
-                <USE>Dry&#32;Hop</USE>
-                <TIME>10080</TIME>
+                <ALPHA>10.7</ALPHA>
+                <AMOUNT>0.0206</AMOUNT>
+                <USE>Aroma</USE>
+                <TIME>30</TIME>
                 <FORM>Pellet</FORM>
                 <TEMPERATURE/>
                 <HOP_TEMP/>
             </HOP>
             <HOP>
-                <BF_ID>default-95c33097</BF_ID>
-                <NAME>Columbus&#32;&#40;Tomahawk&#41;</NAME>
+                <BF_ID>default-36ce1e32</BF_ID>
+                <NAME>Simcoe</NAME>
                 <VERSION>1</VERSION>
-                <ALPHA>14</ALPHA>
-                <AMOUNT>0.056699046</AMOUNT>
-                <USE>Dry&#32;Hop</USE>
-                <TIME>10080</TIME>
+                <ALPHA>11.9</ALPHA>
+                <AMOUNT>0.0206</AMOUNT>
+                <USE>Aroma</USE>
+                <TIME>30</TIME>
                 <FORM>Pellet</FORM>
                 <TEMPERATURE/>
                 <HOP_TEMP/>
@@ -100,57 +124,43 @@
         </HOPS>
         <FERMENTABLES>
             <FERMENTABLE>
-                <BF_ID>default-5d5dbc5</BF_ID>
-                <NAME>Pale&#32;Ale&#32;Malt&#32;&#50;&#45;Row</NAME>
-                <SUPPLIER>Briess</SUPPLIER>
-                <ORIGIN>US</ORIGIN>
+                <BF_ID>default-8730bfa</BF_ID>
+                <NAME>Pale&#32;Malt&#44;&#32;Maris&#32;Otter</NAME>
+                <SUPPLIER>Maris&#32;Otter</SUPPLIER>
+                <ORIGIN>UK</ORIGIN>
                 <VERSION>1</VERSION>
                 <TYPE>Grain</TYPE>
-                <AMOUNT>5.216312</AMOUNT>
-                <YIELD>80</YIELD>
-                <COLOR>4</COLOR>
-                <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
-                <NOT_FERMENTABLE>false</NOT_FERMENTABLE>
-                <IBU_GAL_PER_LB>NaN</IBU_GAL_PER_LB>
-            </FERMENTABLE>
-            <FERMENTABLE>
-                <BF_ID>default-b3ce46c</BF_ID>
-                <NAME>Wheat&#32;White&#32;Malt</NAME>
-                <SUPPLIER>Briess</SUPPLIER>
-                <ORIGIN>US</ORIGIN>
-                <VERSION>1</VERSION>
-                <TYPE>Grain</TYPE>
-                <AMOUNT>1.360777</AMOUNT>
-                <YIELD>85</YIELD>
-                <COLOR>2.3</COLOR>
+                <AMOUNT>6.83</AMOUNT>
+                <YIELD>82.5</YIELD>
+                <COLOR>3</COLOR>
                 <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
                 <NOT_FERMENTABLE>false</NOT_FERMENTABLE>
                 <IBU_GAL_PER_LB>0</IBU_GAL_PER_LB>
             </FERMENTABLE>
             <FERMENTABLE>
-                <BF_ID>default-U47qukVpb3qP1tD63NJOeAyGA4OyAv</BF_ID>
-                <NAME>Dextrin&#32;Malt</NAME>
-                <SUPPLIER>Crisp</SUPPLIER>
-                <ORIGIN>United&#32;Kingdom</ORIGIN>
+                <BF_ID>default-7ea6c32</BF_ID>
+                <NAME>Honey</NAME>
+                <SUPPLIER/>
+                <ORIGIN>US</ORIGIN>
                 <VERSION>1</VERSION>
-                <TYPE>Grain</TYPE>
-                <AMOUNT>0.340194</AMOUNT>
-                <YIELD>80</YIELD>
-                <COLOR>1.5228426</COLOR>
+                <TYPE>Sugar</TYPE>
+                <AMOUNT>0.66</AMOUNT>
+                <YIELD>75</YIELD>
+                <COLOR>1</COLOR>
                 <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
                 <NOT_FERMENTABLE>false</NOT_FERMENTABLE>
                 <IBU_GAL_PER_LB>0</IBU_GAL_PER_LB>
             </FERMENTABLE>
             <FERMENTABLE>
-                <BF_ID>default-iHDlE9FK5XFkvCpTgq9sSEX0Pk6xU0</BF_ID>
-                <NAME>Crystal&#32;&#49;&#53;L</NAME>
-                <SUPPLIER>Proximity&#32;Malt</SUPPLIER>
-                <ORIGIN>USA</ORIGIN>
+                <BF_ID>default-f2ae88f</BF_ID>
+                <NAME>Caramunich&#32;III</NAME>
+                <SUPPLIER>Weyermann</SUPPLIER>
+                <ORIGIN>Germany</ORIGIN>
                 <VERSION>1</VERSION>
                 <TYPE>Grain</TYPE>
-                <AMOUNT>0.113398</AMOUNT>
-                <YIELD>70</YIELD>
-                <COLOR>15</COLOR>
+                <AMOUNT>0.53</AMOUNT>
+                <YIELD>80.07</YIELD>
+                <COLOR>71</COLOR>
                 <ADD_AFTER_BOIL>false</ADD_AFTER_BOIL>
                 <NOT_FERMENTABLE>false</NOT_FERMENTABLE>
                 <IBU_GAL_PER_LB>0</IBU_GAL_PER_LB>
@@ -164,8 +174,19 @@
                 <TYPE>Water&#32;Agent</TYPE>
                 <USE>Mash</USE>
                 <TIME>0</TIME>
-                <AMOUNT>0.0091</AMOUNT>
-                <DISPLAY_AMOUNT>9.1 g</DISPLAY_AMOUNT>
+                <AMOUNT>0.004365</AMOUNT>
+                <DISPLAY_AMOUNT>4.365 g</DISPLAY_AMOUNT>
+                <AMOUNT_IS_WEIGHT>true</AMOUNT_IS_WEIGHT>
+            </MISC>
+            <MISC>
+                <BF_ID>default-4e9d62</BF_ID>
+                <NAME>Epsom&#32;Salt&#32;&#40;MgSO&#52;&#41;</NAME>
+                <VERSION>1</VERSION>
+                <TYPE>Water&#32;Agent</TYPE>
+                <USE>Mash</USE>
+                <TIME>0</TIME>
+                <AMOUNT>0.0064</AMOUNT>
+                <DISPLAY_AMOUNT>6.4 g</DISPLAY_AMOUNT>
                 <AMOUNT_IS_WEIGHT>true</AMOUNT_IS_WEIGHT>
             </MISC>
             <MISC>
@@ -175,8 +196,8 @@
                 <TYPE>Water&#32;Agent</TYPE>
                 <USE>Mash</USE>
                 <TIME>0</TIME>
-                <AMOUNT>0.0041</AMOUNT>
-                <DISPLAY_AMOUNT>4.1 g</DISPLAY_AMOUNT>
+                <AMOUNT>0.012946</AMOUNT>
+                <DISPLAY_AMOUNT>12.946 g</DISPLAY_AMOUNT>
                 <AMOUNT_IS_WEIGHT>true</AMOUNT_IS_WEIGHT>
             </MISC>
             <MISC>
@@ -186,25 +207,25 @@
                 <TYPE>Water&#32;Agent</TYPE>
                 <USE>Mash</USE>
                 <TIME>0</TIME>
-                <AMOUNT>0.0065</AMOUNT>
-                <DISPLAY_AMOUNT>6.5 ml</DISPLAY_AMOUNT>
+                <AMOUNT>0.002182</AMOUNT>
+                <DISPLAY_AMOUNT>2.182 ml</DISPLAY_AMOUNT>
                 <AMOUNT_IS_WEIGHT>false</AMOUNT_IS_WEIGHT>
             </MISC>
         </MISCS>
         <YEASTS>
             <YEAST>
-                <BF_ID>default-iy-juice</BF_ID>
-                <NAME>Juice</NAME>
+                <BF_ID>default-016efc</BF_ID>
+                <NAME>Safale&#32;American</NAME>
                 <VERSION>1</VERSION>
                 <TYPE>Ale</TYPE>
-                <FORM>Liquid</FORM>
-                <AMOUNT>2</AMOUNT>
-                <LABORATORY>Imperial&#32;Yeast</LABORATORY>
-                <PRODUCT_ID>A&#51;&#56;</PRODUCT_ID>
-                <DISPLAY_AMOUNT>2 pkg</DISPLAY_AMOUNT>
-                <ATTENUATION>76</ATTENUATION>
-                <MIN_TEMPERATURE>23</MIN_TEMPERATURE>
-                <MAX_TEMPERATURE>18</MAX_TEMPERATURE>
+                <FORM>Dry</FORM>
+                <AMOUNT>1.4</AMOUNT>
+                <LABORATORY>Fermentis</LABORATORY>
+                <PRODUCT_ID>US&#45;&#48;&#53;</PRODUCT_ID>
+                <DISPLAY_AMOUNT>1.4 pkg</DISPLAY_AMOUNT>
+                <ATTENUATION>81</ATTENUATION>
+                <MIN_TEMPERATURE>16</MIN_TEMPERATURE>
+                <MAX_TEMPERATURE>28</MAX_TEMPERATURE>
             </YEAST>
         </YEASTS>
         <MASH>
@@ -217,22 +238,22 @@
                     <NAME>Temperature</NAME>
                     <VERSION>1</VERSION>
                     <TYPE>Temperature</TYPE>
-                    <STEP_TEMP>65</STEP_TEMP>
+                    <STEP_TEMP>66.7</STEP_TEMP>
                     <STEP_TIME>60</STEP_TIME>
-                    <INFUSE_AMOUNT>31.33</INFUSE_AMOUNT>
+                    <INFUSE_AMOUNT>33.87</INFUSE_AMOUNT>
                 </MASH_STEP>
             </MASH_STEPS>
         </MASH>
         <EQUIPMENT>
-            <NAME>eBIAB</NAME>
+            <NAME>ANVIL&#32;Foundry&#32;&#49;&#48;&#46;&#53;</NAME>
             <VERSION>1</VERSION>
-            <BOIL_SIZE>26.52</BOIL_SIZE>
-            <BATCH_SIZE>20.819765</BATCH_SIZE>
-            <TRUB_CHILLER_LOSS>2.460518</TRUB_CHILLER_LOSS>
-            <LAUTER_DEADSPACE>0</LAUTER_DEADSPACE>
-            <BOIL_TIME>60</BOIL_TIME>
+            <BOIL_SIZE>34.66</BOIL_SIZE>
+            <BATCH_SIZE>30.283294</BATCH_SIZE>
+            <TRUB_CHILLER_LOSS>2.081976</TRUB_CHILLER_LOSS>
+            <LAUTER_DEADSPACE>4.428932</LAUTER_DEADSPACE>
+            <BOIL_TIME>30</BOIL_TIME>
             <HOP_UTILIZATION>100</HOP_UTILIZATION>
-            <EVAP_RATE>8.564279788838611</EVAP_RATE>
+            <EVAP_RATE>5.460778995960762</EVAP_RATE>
             <CALC_BOIL_VOLUME>true</CALC_BOIL_VOLUME>
         </EQUIPMENT>
         <BF_FERMENTATION_PROFILE_ID>default</BF_FERMENTATION_PROFILE_ID>
