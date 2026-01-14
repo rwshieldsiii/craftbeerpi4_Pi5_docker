@@ -5,7 +5,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "Rob Shiel;ds"
+        "value": "John Doe"
     },
     "AddMashInStep": {
         "description": "Add MashIn Step automatically if not defined in recipe",
@@ -39,7 +39,7 @@
         ],
         "source": "steps",
         "type": "select",
-        "value": "No"
+        "value": "Yes"
     },
     "BREWERY_NAME": {
         "description": "Brewery Name",
@@ -47,7 +47,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "PlainBrew"
+        "value": "CraftBeerPi Brewery"
     },
     "BoilAutoTimer": {
         "description": "Start Boil timer automatically if Temp does not change for 5 Minutes and is above 95C/203F",
@@ -64,7 +64,7 @@
         ],
         "source": "steps",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "BoilKettle": {
         "description": "Define Kettle that is used for Boil, Whirlpool and Cooldown. If not selected, MASH_TUN will be used",
@@ -72,7 +72,7 @@
         "options": null,
         "source": "steps",
         "type": "kettle",
-        "value": "TzZmekX6Z3qNdUpCJczqrX"
+        "value": ""
     },
     "CONFIG_STATUS": {
         "description": "Status of the config file. Internal use for maintenance",
@@ -80,7 +80,7 @@
         "options": null,
         "source": "hidden",
         "type": "string",
-        "value": "4.6.1"
+        "value": "4.7.1"
     },
     "CSVLOGFILES": {
         "description": "Write sensor data to csv logfiles (enabling requires restart)",
@@ -179,7 +179,15 @@
         "options": null,
         "source": "steps",
         "type": "kettle",
-        "value": "6hJntYwP48iYjG8kdbD667"
+        "value": ""
+    },
+    "MIN_MEMORY": {
+        "description": "Minimum required memory in MB for CraftBeerPi to run properly",
+        "name": "MIN_MEMORY",
+        "options": null,
+        "source": "craftbeerpi",
+        "type": "number",
+        "value": 200
     },
     "MQTTUpdate": {
         "description": "Forced MQTT Update frequency in s for Kettle and Fermenter (no changes in payload required). Restart required after change",
@@ -225,7 +233,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "PLAY_BUZZER": {
         "description": "Play buzzer sound in Web interface on Notifications",
@@ -242,7 +250,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "Yes"
+        "value": "No"
     },
     "PRESSURE_UNIT": {
         "description": "Set unit for pressure",
@@ -300,7 +308,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": "F"
+        "value": "C"
     },
     "brewfather_api_key": {
         "description": "Brewfather API Key",
@@ -308,7 +316,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "MEQpvVG6nXahRpXXo0KSCAEPOkL2"
+        "value": ""
     },
     "brewfather_list_length": {
         "description": "Brewfather Recipe List length",
@@ -345,7 +353,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "rwshields@gmail.com"
+        "value": ""
     },
     "current_dashboard_number": {
         "description": "Number of current Dashboard",
@@ -435,7 +443,15 @@
         "options": null,
         "source": "steps",
         "type": "step",
-        "value": "BoilStep"
+        "value": ""
+    },
+    "steps_boil_actor": {
+        "description": "Actor that can be toggled with lid alert to activate exhaust or steam condensor (default: None)",
+        "name": "steps_boil_actor",
+        "options": null,
+        "source": "steps",
+        "type": "actor",
+        "value": ""
     },
     "steps_boil_temp": {
         "description": "Default Boil Temperature for Recipe Creation",
@@ -443,7 +459,7 @@
         "options": null,
         "source": "steps",
         "type": "number",
-        "value": "207"
+        "value": 99
     },
     "steps_cooldown": {
         "description": "Cooldown step type",
@@ -451,7 +467,7 @@
         "options": null,
         "source": "steps",
         "type": "step",
-        "value": "CooldownStep"
+        "value": ""
     },
     "steps_cooldown_actor": {
         "description": "Actor to trigger cooldown water on and off (default: None)",
@@ -483,7 +499,7 @@
         "options": null,
         "source": "steps",
         "type": "step",
-        "value": "MashStep"
+        "value": ""
     },
     "steps_mashin": {
         "description": "MashIn step type",
@@ -491,7 +507,7 @@
         "options": null,
         "source": "steps",
         "type": "step",
-        "value": "MashInStep"
+        "value": ""
     },
     "steps_mashout": {
         "description": "MashOut step type",
@@ -499,6 +515,6 @@
         "options": null,
         "source": "steps",
         "type": "step",
-        "value": "MashStep"
+        "value": ""
     }
 }
