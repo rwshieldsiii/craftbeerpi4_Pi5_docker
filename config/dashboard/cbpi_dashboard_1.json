@@ -23,18 +23,6 @@
             "y": 302
         },
         {
-            "id": "285eaba8-9096-40e0-9ffa-676a660648d2",
-            "name": "BOIL CONTROL",
-            "props": {
-                "kettle": "krjsiaQpWH9o6seoKAze9h",
-                "orientation": "horizontal",
-                "size": "large"
-            },
-            "type": "KettleControl",
-            "x": 554,
-            "y": 432
-        },
-        {
             "id": "119fc0f7-0f30-46fc-92ad-51545aa84b14",
             "name": "BOIL ACTUAL",
             "props": {
@@ -245,18 +233,6 @@
             "y": 310
         },
         {
-            "id": "4741d6de-3b35-41bf-8557-1fd1b8d4c65e",
-            "name": "HLT CONTROL",
-            "props": {
-                "kettle": "PEvTXjonVvDt9o5e7Yx76t",
-                "orientation": "horizontal",
-                "size": "large"
-            },
-            "type": "KettleControl",
-            "x": 1006,
-            "y": 429
-        },
-        {
             "id": "3d03cffb-78f6-4088-b780-d74c75c26b19",
             "name": "Steps",
             "props": {
@@ -281,6 +257,30 @@
             "type": "ActorButton",
             "x": 846,
             "y": 677
+        },
+        {
+            "id": "7b6cfa98-5c67-4775-b502-daf3a6a56380",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "TzZmekX6Z3qNdUpCJczqrX",
+                "orientation": "horizontal",
+                "size": "normal"
+            },
+            "type": "KettleControl",
+            "x": 570,
+            "y": 430
+        },
+        {
+            "id": "d2013fec-1b85-4f23-97c4-58bd3a71e5c2",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "UTzwC92KKU6HugZdMfB5dB",
+                "orientation": "horizontal",
+                "size": "normal"
+            },
+            "type": "KettleControl",
+            "x": 990,
+            "y": 435
         }
     ],
     "pathes": []
