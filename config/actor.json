@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "id": "EayfjNBwkUofnBjQA5bNqr",
+            "name": "BOIL HEATER",
+            "power": 100,
+            "props": {
+                "GPIO": 19,
+                "Inverted": "",
+                "SamplingTime": 2
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        },
+        {
+            "id": "LaG8x9ggeEiWuMjPnm43sD",
+            "name": "HLT HEATER",
+            "power": 100,
+            "props": {
+                "GPIO": 12,
+                "SamplingTime": 2
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        },
+        {
+            "id": "SeFqr72PQ6N9G3GTJY5VH3",
+            "name": "WATER PUMP",
+            "power": 100,
+            "props": {
+                "GPIO": 13,
+                "SamplingTime": 2
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        },
+        {
+            "id": "2QHtUyRv7ggvxcocf5Vq7C",
+            "name": "WORT PUMP",
+            "power": 100,
+            "props": {
+                "GPIO": 6,
+                "SamplingTime": 2
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        }
+    ]
+}

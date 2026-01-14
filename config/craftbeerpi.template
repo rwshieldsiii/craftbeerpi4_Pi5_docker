@@ -1,0 +1,11 @@
+[Unit]
+Description=Craftbeer Pi
+
+[Service]
+WorkingDirectory=/home/{{ user }}
+ExecStart={{ path }} start
+KillSignal=SIGKILL
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target

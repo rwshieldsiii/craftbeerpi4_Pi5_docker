@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "id": "d8HgwdRdSNSGrXMVTmVevG",
+            "name": "BOIL TEMP SENSOR",
+            "props": {
+                "Interval": 1,
+                "Kettle": "TzZmekX6Z3qNdUpCJczqrX",
+                "Sensor": "28-041671ad48ff"
+            },
+            "state": false,
+            "type": "OneWire"
+        },
+        {
+            "id": "gsb3dBNPSDQUxSWQyoDz59",
+            "name": "HLT TEMP SENSOR",
+            "props": {
+                "Interval": 1,
+                "Kettle": "UTzwC92KKU6HugZdMfB5dB",
+                "Sensor": "28-051670f240ff"
+            },
+            "state": false,
+            "type": "OneWire"
+        },
+        {
+            "id": "HmDaSXYcKLympjHfuVuPVm",
+            "name": "MASH TUN TEMP SENSOR",
+            "props": {
+                "Interval": 1,
+                "Kettle": "6hJntYwP48iYjG8kdbD667",
+                "Sensor": "28-051671202fff"
+            },
+            "state": false,
+            "type": "OneWire"
+        }
+    ]
+}

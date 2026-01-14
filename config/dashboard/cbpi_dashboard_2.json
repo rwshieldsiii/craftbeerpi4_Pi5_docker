@@ -1,0 +1,195 @@
+{
+    "elements": [
+        {
+            "id": "08e0b46b-876e-439d-9694-04f6ace13d4b",
+            "name": "HLT",
+            "props": {
+                "WidgetOff": "SK_v2.3_gradi_l",
+                "WidgetOn": "",
+                "actor": "jwUoxd8LktmonXu9ohipu7",
+                "rotation": "0",
+                "width": 350
+            },
+            "type": "CustomSVG",
+            "x": 450,
+            "y": 155
+        },
+        {
+            "id": "33577f4e-780c-476d-a1ca-dc52880dc51c",
+            "name": "HLT OUTLINE",
+            "props": {
+                "WidgetOff": "SK_v2.2_schnitt_m_o",
+                "WidgetOn": "",
+                "actor": "",
+                "rotation": "0",
+                "width": 400
+            },
+            "type": "CustomSVG",
+            "x": 418,
+            "y": 157
+        },
+        {
+            "id": "285eaba8-9096-40e0-9ffa-676a660648d2",
+            "name": "BOIL CONTROL",
+            "props": {
+                "kettle": "krjsiaQpWH9o6seoKAze9h",
+                "orientation": "horizontal",
+                "size": "large"
+            },
+            "type": "KettleControl",
+            "x": 482,
+            "y": 365
+        },
+        {
+            "id": "119fc0f7-0f30-46fc-92ad-51545aa84b14",
+            "name": "HLT ACTUAL",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "mRwiVYdVYZt5ZgKgwdsrva",
+                "size": 36,
+                "unit": "\u00b0"
+            },
+            "type": "Sensor",
+            "x": 670,
+            "y": 155
+        },
+        {
+            "id": "22d8ad22-fb71-4903-8809-668b6c054d38",
+            "name": "HLT TARGET",
+            "props": {
+                "color": "#fff",
+                "kettle": "PEvTXjonVvDt9o5e7Yx76t",
+                "size": 36,
+                "unit": "\u00b0"
+            },
+            "type": "TargetTemp",
+            "x": 680,
+            "y": 215
+        },
+        {
+            "id": "510e9544-f42e-4ef2-98ac-810d0b71dae5",
+            "name": "WORT PUMP",
+            "props": {
+                "WidgetOff": "P_gradi_1",
+                "WidgetOn": "",
+                "actor": "ZFvC5cKD2L3AQRqya7j4kE",
+                "rotation": "0",
+                "width": "100"
+            },
+            "type": "CustomSVG",
+            "x": 584,
+            "y": 683
+        },
+        {
+            "id": "7758fb13-c058-458b-b7b3-4bb310a41c37",
+            "name": "ACTUAL TEMP",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 460,
+            "y": 155
+        },
+        {
+            "id": "dee13c3c-0dc2-42c8-8873-5257041911a8",
+            "name": "TARGET TEMP",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 460,
+            "y": 210
+        },
+        {
+            "id": "455aa49a-f242-4d33-9e90-13fd4422a4ea",
+            "name": "BOIL KETTLE",
+            "props": {
+                "color": "#fff",
+                "size": 72
+            },
+            "type": "Text",
+            "x": 445,
+            "y": 25
+        },
+        {
+            "id": "cafb837a-e60f-4177-94e1-a9a160843e1e",
+            "name": "BOIL INDICATOR",
+            "props": {
+                "actor": "bcfriAxorCXMxm3Mx7YUa8",
+                "color": "green"
+            },
+            "type": "Led",
+            "x": 605,
+            "y": 465
+        },
+        {
+            "id": "0cdb782e-b72d-4232-95bf-67ecdde51df9",
+            "name": "WORT TEMP",
+            "props": {
+                "action": "yes",
+                "actor": "ZFvC5cKD2L3AQRqya7j4kE",
+                "powerslider": "no",
+                "size": "12"
+            },
+            "type": "ActorButton",
+            "x": 559,
+            "y": 881
+        },
+        {
+            "id": "83afb9cb-797c-43d2-8688-66245eb9da97",
+            "name": "SVG",
+            "props": {
+                "WidgetOff": "V2W_1",
+                "WidgetOn": "",
+                "actor": "",
+                "rotation": "0",
+                "width": "100"
+            },
+            "type": "CustomSVG",
+            "x": 350,
+            "y": 519
+        }
+    ],
+    "pathes": [
+        {
+            "condition": {
+                "color": "#DAA520",
+                "corner": "round",
+                "left": [
+                    "bcfriAxorCXMxm3Mx7YUa8"
+                ],
+                "leftExpression": "",
+                "opacity": "yes",
+                "right": [
+                    "ZFvC5cKD2L3AQRqya7j4kE"
+                ],
+                "rightExpression": "",
+                "stroke": "20"
+            },
+            "coordinates": [
+                [
+                    392,
+                    547
+                ],
+                [
+                    295,
+                    547
+                ],
+                [
+                    295,
+                    857
+                ],
+                [
+                    581,
+                    856
+                ]
+            ],
+            "id": "bd218951-a655-4fa1-9773-7808d58f19c2"
+        }
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "elements": [
+        {
+            "id": "8c12dc7c-e4c1-4185-90a2-73eb44e3e88f",
+            "name": "Kettle",
+            "props": {
+                "heigth": "150",
+                "width": 500
+            },
+            "type": "Kettle",
+            "x": 506,
+            "y": 18
+        },
+        {
+            "id": "dee13c3c-0dc2-42c8-8873-5257041911a8",
+            "name": "TARGET",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 535,
+            "y": 302
+        },
+        {
+            "id": "119fc0f7-0f30-46fc-92ad-51545aa84b14",
+            "name": "BOIL ACTUAL",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "d8HgwdRdSNSGrXMVTmVevG",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "Sensor",
+            "x": 693,
+            "y": 186
+        },
+        {
+            "id": "22d8ad22-fb71-4903-8809-668b6c054d38",
+            "name": "BOIL TARGET",
+            "props": {
+                "color": "#fff",
+                "kettle": "TzZmekX6Z3qNdUpCJczqrX",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "TargetTemp",
+            "x": 695,
+            "y": 305
+        },
+        {
+            "id": "7758fb13-c058-458b-b7b3-4bb310a41c37",
+            "name": "ACTUAL",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 543,
+            "y": 185
+        },
+        {
+            "id": "455aa49a-f242-4d33-9e90-13fd4422a4ea",
+            "name": "BOIL KETTLE",
+            "props": {
+                "color": "#fff",
+                "size": 60
+            },
+            "type": "Text",
+            "x": 542,
+            "y": 27
+        },
+        {
+            "id": "0cdb782e-b72d-4232-95bf-67ecdde51df9",
+            "name": "WORT PUMP",
+            "props": {
+                "action": "yes",
+                "actor": "2QHtUyRv7ggvxcocf5Vq7C",
+                "powerslider": "no",
+                "size": 36
+            },
+            "type": "ActorButton",
+            "x": 232,
+            "y": 678
+        },
+        {
+            "id": "ce3a71c7-4ffc-4947-b7ac-1ed73f2626b7",
+            "name": "Kettle",
+            "props": {
+                "heigth": "150",
+                "width": 500
+            },
+            "type": "Kettle",
+            "x": 939,
+            "y": 18
+        },
+        {
+            "id": "fa823bdd-b8a8-4b2f-b413-ebb1fcfaf7f3",
+            "name": "HLT",
+            "props": {
+                "color": "#fff",
+                "size": 60
+            },
+            "type": "Text",
+            "x": 1073,
+            "y": 21
+        },
+        {
+            "id": "9f8e739d-9b61-476b-ada7-96b229321721",
+            "name": "Kettle",
+            "props": {
+                "heigth": 100,
+                "width": 500
+            },
+            "type": "Kettle",
+            "x": 67,
+            "y": 15
+        },
+        {
+            "id": "1855584e-7789-4374-82a2-f257b3cea29f",
+            "name": "MASH TUN",
+            "props": {
+                "color": "#fff",
+                "size": 60
+            },
+            "type": "Text",
+            "x": 110,
+            "y": 25
+        },
+        {
+            "id": "c48b68ec-1144-412a-af36-b02eabaaab54",
+            "name": "MASH TUN TARGET",
+            "props": {
+                "color": "#fff",
+                "kettle": "6hJntYwP48iYjG8kdbD667",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "TargetTemp",
+            "x": 275,
+            "y": 293
+        },
+        {
+            "id": "ffbf92ec-cbf7-4e94-b902-f0a21680423f",
+            "name": "MASH TEMP",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "HmDaSXYcKLympjHfuVuPVm",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "Sensor",
+            "x": 264,
+            "y": 174
+        },
+        {
+            "id": "920ad4cd-4a85-4229-8f30-149e37da3fa8",
+            "name": "ACTUAL",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 104,
+            "y": 171
+        },
+        {
+            "id": "16e4cffd-71ea-4cd1-b5be-96610a05f621",
+            "name": "TARGET",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 104,
+            "y": 293
+        },
+        {
+            "id": "b845ac03-1479-47e3-8584-802b933d8b95",
+            "name": "ACTUAL",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 965,
+            "y": 178
+        },
+        {
+            "id": "4ea4f9d4-edb6-4f31-92ff-51dfef46e516",
+            "name": "HLT TARGET",
+            "props": {
+                "color": "#fff",
+                "kettle": "UTzwC92KKU6HugZdMfB5dB",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "TargetTemp",
+            "x": 1131,
+            "y": 310
+        },
+        {
+            "id": "b55f76d1-84c9-442c-8db7-310f3e3d1182",
+            "name": "HLT TEMP",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "gsb3dBNPSDQUxSWQyoDz59",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "Sensor",
+            "x": 1123,
+            "y": 175
+        },
+        {
+            "id": "2ab90508-73e6-4742-8f41-03bc37530087",
+            "name": "TARGET",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 965,
+            "y": 310
+        },
+        {
+            "id": "3d03cffb-78f6-4088-b780-d74c75c26b19",
+            "name": "Steps",
+            "props": {
+                "maxheight": "600",
+                "namesize": "14",
+                "stepsize": "14",
+                "width": "200"
+            },
+            "type": "Steps",
+            "x": 1304,
+            "y": 52
+        },
+        {
+            "id": "072fe7b5-cd32-4868-96f0-db2470204f59",
+            "name": "WATER PUMP",
+            "props": {
+                "action": "yes",
+                "actor": "SeFqr72PQ6N9G3GTJY5VH3",
+                "powerslider": "no",
+                "size": 36
+            },
+            "type": "ActorButton",
+            "x": 846,
+            "y": 677
+        },
+        {
+            "id": "7b6cfa98-5c67-4775-b502-daf3a6a56380",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "TzZmekX6Z3qNdUpCJczqrX",
+                "orientation": "horizontal",
+                "size": "normal"
+            },
+            "type": "KettleControl",
+            "x": 570,
+            "y": 430
+        },
+        {
+            "id": "d2013fec-1b85-4f23-97c4-58bd3a71e5c2",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "UTzwC92KKU6HugZdMfB5dB",
+                "orientation": "horizontal",
+                "size": "normal"
+            },
+            "type": "KettleControl",
+            "x": 990,
+            "y": 435
+        }
+    ],
+    "pathes": []
+}

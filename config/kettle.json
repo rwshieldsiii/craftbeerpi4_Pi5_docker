@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "agitator": "2QHtUyRv7ggvxcocf5Vq7C",
+            "heater": "EayfjNBwkUofnBjQA5bNqr",
+            "id": "TzZmekX6Z3qNdUpCJczqrX",
+            "name": "BOIL KETTLE",
+            "props": {
+                "OffsetOn": "0.5"
+            },
+            "sensor": "d8HgwdRdSNSGrXMVTmVevG",
+            "state": false,
+            "target_temp": 212,
+            "type": "Hysteresis"
+        },
+        {
+            "agitator": "SeFqr72PQ6N9G3GTJY5VH3",
+            "heater": "LaG8x9ggeEiWuMjPnm43sD",
+            "id": "UTzwC92KKU6HugZdMfB5dB",
+            "name": "HLT",
+            "props": {
+                "OffsetOn": "0.5"
+            },
+            "sensor": "gsb3dBNPSDQUxSWQyoDz59",
+            "state": false,
+            "target_temp": 0,
+            "type": "Hysteresis"
+        },
+        {
+            "agitator": "2QHtUyRv7ggvxcocf5Vq7C",
+            "heater": "LaG8x9ggeEiWuMjPnm43sD",
+            "id": "6hJntYwP48iYjG8kdbD667",
+            "name": "MASH TUN",
+            "props": {
+                "OffsetOn": "0.5"
+            },
+            "sensor": "HmDaSXYcKLympjHfuVuPVm",
+            "state": false,
+            "target_temp": 0,
+            "type": "Hysteresis"
+        }
+    ]
+}
