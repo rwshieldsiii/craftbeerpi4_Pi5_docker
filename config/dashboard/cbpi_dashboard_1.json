@@ -259,28 +259,28 @@
             "y": 677
         },
         {
-            "id": "b855dfe9-6b6d-42b2-95ea-68de689ce260",
+            "id": "7b6cfa98-5c67-4775-b502-daf3a6a56380",
             "name": "KettleControl",
             "props": {
                 "kettle": "TzZmekX6Z3qNdUpCJczqrX",
                 "orientation": "horizontal",
-                "size": "large"
+                "size": "normal"
             },
             "type": "KettleControl",
-            "x": 540,
-            "y": 425
+            "x": 570,
+            "y": 430
         },
         {
-            "id": "10b3a811-9856-4dc1-bb88-58ef48a8f8bf",
+            "id": "d2013fec-1b85-4f23-97c4-58bd3a71e5c2",
             "name": "KettleControl",
             "props": {
                 "kettle": "UTzwC92KKU6HugZdMfB5dB",
                 "orientation": "horizontal",
-                "size": "large"
+                "size": "normal"
             },
             "type": "KettleControl",
-            "x": 980,
-            "y": 430
+            "x": 990,
+            "y": 435
         }
     ],
     "pathes": []
