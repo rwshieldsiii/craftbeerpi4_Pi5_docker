@@ -2,7 +2,9 @@
     "data": [
         {
             "id": "EayfjNBwkUofnBjQA5bNqr",
+            "maxoutput": 100,
             "name": "BOIL HEATER",
+            "output": 100,
             "power": 100,
             "props": {
                 "GPIO": 19,
@@ -15,7 +17,9 @@
         },
         {
             "id": "LaG8x9ggeEiWuMjPnm43sD",
+            "maxoutput": 100,
             "name": "HLT HEATER",
+            "output": 100,
             "power": 100,
             "props": {
                 "GPIO": 12,
@@ -27,7 +31,9 @@
         },
         {
             "id": "SeFqr72PQ6N9G3GTJY5VH3",
+            "maxoutput": 100,
             "name": "WATER PUMP",
+            "output": 100,
             "power": 100,
             "props": {
                 "GPIO": 13,
@@ -39,7 +45,9 @@
         },
         {
             "id": "2QHtUyRv7ggvxcocf5Vq7C",
+            "maxoutput": 100,
             "name": "WORT PUMP",
+            "output": 100,
             "power": 100,
             "props": {
                 "GPIO": 6,

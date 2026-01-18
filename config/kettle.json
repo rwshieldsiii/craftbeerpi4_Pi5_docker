@@ -10,7 +10,7 @@
             },
             "sensor": "d8HgwdRdSNSGrXMVTmVevG",
             "state": false,
-            "target_temp": 212,
+            "target_temp": 208,
             "type": "Hysteresis"
         },
         {
