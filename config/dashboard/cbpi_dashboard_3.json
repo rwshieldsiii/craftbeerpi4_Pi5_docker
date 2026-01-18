@@ -1,0 +1,19 @@
+{
+    "elements": [
+        {
+            "id": "57d9b46f-75a0-4ffd-9f62-ada6e698ecc0",
+            "name": "BOIL CHART",
+            "props": {
+                "height": 800,
+                "linecolor": "#00FF00",
+                "refresh": 5,
+                "sensor": "d8HgwdRdSNSGrXMVTmVevG",
+                "width": 800
+            },
+            "type": "Chart",
+            "x": 10,
+            "y": 10
+        }
+    ],
+    "pathes": []
+}
