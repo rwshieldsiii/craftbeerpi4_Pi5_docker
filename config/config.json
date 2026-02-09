@@ -64,7 +64,7 @@
         ],
         "source": "steps",
         "type": "select",
-        "value": "No"
+        "value": "Yes"
     },
     "BoilKettle": {
         "description": "Define Kettle that is used for Boil, Whirlpool and Cooldown. If not selected, MASH_TUN will be used",
@@ -316,7 +316,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "MEQpvVG6nXahRpXXo0KSCAEPOkL2"
+        "value": "Jcf4P2EQlcD8ZwKKFUcOgpn07JoEIzz4ICdDzUh0v0VlNgNPuL7UsgfNyq8cAUoY"
     },
     "brewfather_list_length": {
         "description": "Brewfather Recipe List length",
@@ -345,7 +345,7 @@
         ],
         "source": "craftbeerpi",
         "type": "select",
-        "value": 50
+        "value": 25
     },
     "brewfather_user_id": {
         "description": "Brewfather User ID",
@@ -353,7 +353,7 @@
         "options": null,
         "source": "craftbeerpi",
         "type": "string",
-        "value": "rwshields@gmail.com"
+        "value": "MEQpvVG6nXahRpXXo0KSCAEPOkL2"
     },
     "current_dashboard_number": {
         "description": "Number of current Dashboard",

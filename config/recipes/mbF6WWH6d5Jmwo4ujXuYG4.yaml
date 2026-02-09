@@ -1,0 +1,165 @@
+basic:
+  author: Rob Shields
+  name: Test Run
+steps:
+- id: LTUjsZMwrghYfyxjgiuUqu
+  name: MashIn
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: Target temperature reached. Please add malt.
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '117'
+    Timer: 0
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashInStep
+- id: NwhhMP43z8jguJaUN9Ryx6
+  name: Peptidase rest
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: ''
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '113'
+    Timer: '3'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashStep
+- id: MLvQ9dMnLb5yfoH6hqwrox
+  name: Proteinase rest
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: ''
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '131'
+    Timer: '3'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashStep
+- id: QEzmkAayyfauVUnhY2AeEx
+  name: Beta Saccharification
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: ''
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '140'
+    Timer: '3'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashStep
+- id: H4RwfK6h3GjkoGteVN3hbv
+  name: Alpha Saccharification
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: ''
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '154'
+    Timer: '3'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashStep
+- id: G89EmziP2RvSp7SRSZ7P9K
+  name: Mash Out
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: ''
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '171'
+    Timer: '3'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashStep
+- id: RABb8kiB8aPD2szg7CwH2Z
+  name: Mash Out
+  props:
+    AutoMode: 'No'
+    Kettle: UTzwC92KKU6HugZdMfB5dB
+    Notification: ''
+    Sensor: HmDaSXYcKLympjHfuVuPVm
+    Temp: '171'
+    Timer: '3'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashStep
+- id: n5gSEfKR68b2YVEtwmdn5p
+  name: Boil Step
+  props:
+    AutoMode: 'No'
+    First_Wort: 'No'
+    First_Wort_text: ''
+    Hop_1: 10.0
+    Hop_1_text: Challenger
+    Hop_2: 10.0
+    Hop_2_text: East Kent Goldings (EKG)
+    Hop_3: 10.0
+    Hop_3_text: Yeast Nutrients
+    Hop_4: 7.0
+    Hop_4_text: Challenger
+    Hop_5: null
+    Hop_5_text: null
+    Hop_6: null
+    Hop_6_text: null
+    Kettle: TzZmekX6Z3qNdUpCJczqrX
+    LidAlert: 'Yes'
+    Sensor: d8HgwdRdSNSGrXMVTmVevG
+    Temp: '207'
+    Timer: '10'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: BoilStep
+- id: W2XUGs7AoC7gxzA2WTeUXr
+  name: Cooldown for Whirlpool Hop
+  props:
+    Actor: 2QHtUyRv7ggvxcocf5Vq7C
+    Kettle: TzZmekX6Z3qNdUpCJczqrX
+    Sensor: d8HgwdRdSNSGrXMVTmVevG
+    Temp: 176.0
+    Timer: ''
+  state_text: ''
+  state_text2: null
+  status: I
+  type: CooldownStep
+- id: jDwrXdkDUDzcir5vdziUrJ
+  name: Whirlpool Hop
+  props:
+    AutoNext: 'No'
+    Kettle: 6hJntYwP48iYjG8kdbD667
+    Notification: Target Whirlpool temperature reached. Please add Whirlpool hops.
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep
+- id: QgYbn3LcVCLcPwdCdfaWei
+  name: Whirlpool
+  props:
+    Kettle: TzZmekX6Z3qNdUpCJczqrX
+    Timer: '15'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: WaitStep
+- id: Cm53jHN4wuSzRMG7EDLhwf
+  name: Cooldown
+  props:
+    Actor: 2QHtUyRv7ggvxcocf5Vq7C
+    Kettle: TzZmekX6Z3qNdUpCJczqrX
+    Sensor: d8HgwdRdSNSGrXMVTmVevG
+    Temp: 68
+    Timer: ''
+  state_text: ''
+  state_text2: null
+  status: I
+  type: CooldownStep

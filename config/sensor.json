@@ -32,6 +32,16 @@
             },
             "state": false,
             "type": "OneWire"
+        },
+        {
+            "id": "WKC8M52SBVH8eGDP4nAuhT",
+            "name": "Wort Chiller",
+            "props": {
+                "Interval": 1,
+                "Sensor": "28-051670f7b4ff"
+            },
+            "state": false,
+            "type": "OneWire"
         }
     ]
 }

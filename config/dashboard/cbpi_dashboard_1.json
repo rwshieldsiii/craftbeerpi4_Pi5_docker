@@ -264,10 +264,10 @@
             "props": {
                 "kettle": "TzZmekX6Z3qNdUpCJczqrX",
                 "orientation": "horizontal",
-                "size": "normal"
+                "size": "large"
             },
             "type": "KettleControl",
-            "x": 570,
+            "x": 540,
             "y": 430
         },
         {
@@ -276,11 +276,50 @@
             "props": {
                 "kettle": "UTzwC92KKU6HugZdMfB5dB",
                 "orientation": "horizontal",
-                "size": "normal"
+                "size": "large"
             },
             "type": "KettleControl",
-            "x": 990,
-            "y": 435
+            "x": 975,
+            "y": 425
+        },
+        {
+            "id": "275e56c7-7517-40e1-b754-fc2b686bb600",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "6hJntYwP48iYjG8kdbD667",
+                "orientation": "horizontal",
+                "size": "large"
+            },
+            "type": "KettleControl",
+            "x": 105,
+            "y": 430
+        },
+        {
+            "id": "f64490e7-7e21-4866-aa1a-b9d0786a2f8b",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "WKC8M52SBVH8eGDP4nAuhT",
+                "size": 36,
+                "unit": "\u00b0F"
+            },
+            "type": "Sensor",
+            "x": 930,
+            "y": 695
+        },
+        {
+            "id": "56392985-c194-45e1-bcd0-edae39c5ecd7",
+            "name": "WORT CHILLER OUTPUT TEMP",
+            "props": {
+                "color": "#fff",
+                "size": 36
+            },
+            "type": "Text",
+            "x": 790,
+            "y": 640
         }
     ],
     "pathes": []
